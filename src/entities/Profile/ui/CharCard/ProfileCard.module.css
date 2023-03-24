@@ -1,0 +1,63 @@
+.ProfileCard {
+  background: #F0F0F0;
+  border-radius: 8px;
+  width: 351px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0 11px 25px;
+  cursor: pointer;
+}
+
+.charName {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #212121;
+  text-shadow: 4px 4px 4px rgba(33, 33, 33, 0.1);
+  margin-bottom: 20px;
+}
+
+.bodyInfo {
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+}
+
+.paramChar {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 11px;
+}
+.paramChar span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #4B4B4B;
+}
+
+.genderAndBirthYear {
+  display: flex;
+  gap: 16px;
+}
+
+@media (max-width: 800px) {
+  .ProfileCard {
+    width: 100%;
+    padding: 10px;
+  }
+}
+@media (max-width: 525px) {
+  .ProfileCard {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .charInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/*# sourceMappingURL=ProfileCard.module.css.map */

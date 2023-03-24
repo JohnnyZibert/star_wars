@@ -1,0 +1,49 @@
+.MainContent {
+  color: #FFFFFF;
+  margin-left: 130px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 84px;
+  letter-spacing: 4px;
+  margin-bottom: 64px;
+}
+
+.subTitle {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  margin-bottom: 64px;
+}
+
+.moreDetailsBtn {
+  background: #FFC107;
+  box-shadow: inset 0px -9px 0px rgba(0, 0, 0, 0.18);
+  border-radius: 11px;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 27px;
+  color: #212121;
+  padding: 17px 58px 22px 57px;
+}
+@media (max-width: 1290px) {
+  .MainContent{
+    margin-left: 20px;
+  }
+}
+@media (max-width: 1180px) {
+  .MainContent{
+    margin-left: 20px;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 529px){
+  .title{
+    font-size: 55px;
+  }
+}

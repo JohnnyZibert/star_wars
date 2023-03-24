@@ -1,0 +1,34 @@
+.navLink {
+  color: #F6F7F9;
+  display: flex;
+  align-items: center;
+  gap: 74px;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.unSelectLine {
+  border: 3px solid #CFDAB0;
+  width: 100%;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 15px;
+  visibility: hidden;
+}
+
+.selectLine {
+  border: 3px solid #CFDAB0;
+  width: 100%;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 15px;
+  display: flex;
+}
+
+@media (max-width: 530px) {
+  .navLink {
+    gap: 75px;
+  }
+}

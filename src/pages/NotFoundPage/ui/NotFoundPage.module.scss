@@ -1,0 +1,116 @@
+
+.NotFoundPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #17002F;
+    width: 100%;
+    font-weight: 700;
+    font-size: 700px;
+    line-height: 818px;
+    letter-spacing: 4px;
+    color: rgba(255, 255, 255, 0.5);
+    flex-direction: column;
+    min-height: 100vh;
+}
+.content{
+    max-width: 1250px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.notFoundImg{
+    object-fit: contain;
+    position: absolute;
+}
+.returnBtn {
+    padding: 17px 79px 22px 79px;
+    background: #73D677;
+    box-shadow: inset 0px -9px 0px rgba(0, 0, 0, 0.18);
+    border-radius: 11px;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 27px;
+    text-align: center;
+    color: #212121;
+}
+
+@media (max-width: 1315px) {
+    .NotFoundPage {
+        font-weight: 600;
+        font-size: 600px;
+        line-height: 718px;
+        letter-spacing: 4px;
+    }
+    .notFoundImg{
+        max-width: 600px;
+    }
+}
+@media (max-width: 1130px) {
+    .NotFoundPage {
+        font-weight: 500;
+        font-size: 500px;
+        line-height: 618px;
+        letter-spacing: 4px;
+    }
+    .notFoundImg{
+        max-width: 500px;
+    }
+
+}
+@media (max-width: 900px) {
+    .NotFoundPage {
+        font-weight: 400;
+        font-size: 400px;
+        line-height: 518px;
+        letter-spacing: 4px;
+    }
+    .notFoundImg{
+        max-width: 400px;
+    }
+
+}
+@media (max-width: 710px) {
+    .NotFoundPage {
+        font-weight: 400;
+        font-size: 350px;
+        line-height: 518px;
+        letter-spacing: 4px;
+    }
+    .notFoundImg{
+        max-width: 350px;
+    }
+
+}
+@media (max-width: 619px) {
+    .NotFoundPage {
+        font-size: 300px;
+    }
+    .notFoundImg{
+        max-width: 300px;
+    }
+
+}
+@media (max-width: 530px) {
+    .NotFoundPage {
+        font-size: 250px;
+    }
+    .notFoundImg{
+        max-width: 250px;
+    }
+
+}
+@media (max-width: 450px) {
+    .NotFoundPage {
+        font-size: 200px;
+    }
+    .notFoundImg{
+        max-width: 200px;
+    }
+.returnBtn{
+    padding: 10px 20px;
+}
+}

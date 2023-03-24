@@ -1,0 +1,30 @@
+.mainContent{
+  width: 100%;
+  background: linear-gradient(180deg, #1F2A63 0%, #17002F 100%);
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1400px;
+}
+.bannerContainer{
+  height: 680px;
+  width: 793px;
+}
+.banner{
+  height: 100%;
+}
+
+
+@media (max-width: 1180px) {
+  .mainContent{
+    padding: 0 15px;
+  }
+  .bannerContainer{
+   display: none;
+  }
+}

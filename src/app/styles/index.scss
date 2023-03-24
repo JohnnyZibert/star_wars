@@ -1,0 +1,27 @@
+@import "reset";
+
+.app,
+.app_modal {
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29.23px;
+
+}
+
+.app {
+    height: 100vh;
+
+}
+
+.content-page {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    //height: calc(100% - 90px);
+}
+
+.page-wrapper {
+    flex-grow: 1;
+    padding: 20px;
+}
