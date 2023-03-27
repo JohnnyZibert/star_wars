@@ -6,7 +6,7 @@ import { images } from 'src/shared/assets/icons/images';
 import { getCurrentCharsSelector } from 'src/entities/Profile/model/selectors/currentChar/currentChar';
 import { Gender } from 'src/shared/ui/GenderAndBirthYear/Gender';
 import { BodyParam } from 'src/shared/ui/BodyParam/BodyParam';
-import { PageLoader } from 'src/shared/ui/PageLoader/PageLoader';
+import { Loader } from 'src/shared/ui/Loader/Loader';
 import cls from './ProfileChar.module.scss';
 import { IsLoadingDataChars } from '../../model/selectors/isLoadingCharsDataSelector/isLoadingDataChars';
 
@@ -28,7 +28,7 @@ const ProfileChar = memo(() => {
     return (
         <div className={cls.ProfileChar}>
             {isLoading
-                ? <PageLoader />
+                ? <Loader />
                 : (
                     <>
                         <div className={cls.iconContainer}>
